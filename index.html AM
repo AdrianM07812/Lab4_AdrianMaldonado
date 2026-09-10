@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+-- Adrian Maldonado --
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Adrian Maldonado - 8-1011-1534"> 
+
+    <meta name="description" content="Plataforma de visualizacion de videos"> 
+    
+    <title>ArkTube</title>
+
+</head>
+
+<body>
+
+ <header>
+
+<a href="#"> 
+    <img src="Logotipo-Ark.avif" alt="Logo de ArkTube" width="120"> 
+</a>
+
+
+ <form action="#" role="search">
+
+<input type="search" name="q" placeholder="Buscar" required>
+
+ <button type="submit">Buscar</button>  
+
+ </form>
+
+ 
+ 
+
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Suscripciones</a></li>
+        <li><a href="#">Mi biblioteca</a></li>
+    </ul>
+</nav>
+
+</header>
+
+<main>
+
+    <section>
+
+        <iframe
+            width="640"
+            height="360"
+            src="YTDown.com_YouTube_ARK-Survival-Ascended-Prometeus-Mod-Prem_Media_AqBOpUVnHWQ_001_1080p.mp4"
+            title="Video principal"
+            allowfullscreen>
+        </iframe>
+
+         <h1>
+ARK: Survival Ascended | Prometeus Mod | Premium Map Trailer</h1>
+
+        <p>
+            <span>98,931 vistas</span> -
+            <time datetime="2026-08-20">03 de septiembre de 2026</time>
+        </p>
+
+        <div>
+
+            <img src="images.jpg" alt="Avatar del canal" width="48">
+
+            <p>Ark</p>
+
+            <button type="button">Suscribirse</button>
+
+        </div>
+
+        <p>
+            Introducing the Premium Map Trailer of the Prometeus Mod, 
+            developed by Arkitecto for ARK: Survival Ascended!
+        </p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Comentarios</h2>
+
+        <form action="#">
+
+            <label for="comentario">Agregar un comentario:</label>
+
+            <textarea
+                id="comentario"
+                name="comentario"
+                rows="3"
+                placeholder="Agrega un comentario público..."
+                required></textarea>
+
+            <button type="submit">Comentar</button>
+
+        </form>
+
+
+        <article>
+
+            <img src="ilustracion-joven-sonriente_1308-174669.avif" alt="Avatar de Carlos" width="48">
+
+            <p>Carlos</p>
+
+            <time datetime="2026-08-21">21 de septiembre de 2026</time>
+
+            <p>Muy buen video, me gustó mucho el contenido.</p>
+
+        </article>
+
+
+        <article>
+
+            <img src="ilustracion-3d-avatar-o-perfil-humano_23-2150671140.avif" alt="Avatar de María" width="48">
+
+            <p>María</p>
+
+            <time datetime="2026-08-22">22 de septiembre de 2026</time>
+
+            <p>Excelente explicación. Espero ver más videos como este.</p>
+
+        </article>
+
+
+        <article>
+
+            <img src="ilustracion-3d-3.avif" alt="Avatar de Juan" width="48">
+
+            <p>Juan</p>
+
+            <time datetime="2026-08-23">23 de septiembre de 2026</time>
+
+            <p>Me pareció muy interesante. ¡Buen trabajo!</p>
+
+        </article>
+
+    </section>
+
+</main>
+
+
+<aside>
+
+    <h2>Videos sugeridos</h2>
+
+    <article>
+
+        <a href="https://www.youtube.com/watch?v=4s-VxxWd0Fg">
+            <img src="mqdefault_6s.webp" alt="Miniatura del video sugerido 1" width="168">
+            <h3>
+ARK Just Released a NEW Update – 8 Changes You Need to Know!</h3>
+        </a>
+
+        <p>ARKtops</p>
+
+    </article>
+
+
+    <article>
+
+        <a href="https://www.youtube.com/watch?v=AqBOpUVnHWQ">
+            <img src="mqdefault_6s (2).webp" alt="Miniatura del video sugerido 2" width="168">
+            <h3>
+ARK: Survival Ascended | Prometeus Mod | Premium Map Traile</h3>
+        </a>
+
+        <p>ARKnews</p>
+
+    </article>
+
+
+    <article>
+
+        <a href="https://www.youtube.com/watch?v=Rnxogjj1n_8">
+            <img src="mqdefault_6s (3).webp" alt="Miniatura del video sugerido 3" width="168">
+            <h3>
+God of War Laufey | Tráiler de revelación de gameplay | PS5</h3>
+        </a>
+
+        <p>Playstation Latinoamerica</p>
+
+    </article>
+
+
+    <article>
+
+        <a href="https://www.youtube.com/watch?v=lAr_uspgHm8">
+            <img src="mqdefault_6s (4).webp" alt="Miniatura del video sugerido 4" width="168">
+            <h3>Avengers: Doomsday | Tráiler Oficial | Doblado</h3>
+        </a>
+
+        <p>
+Marvel Latinoamérica Oficial
+</p>
+
+    </article>
+
+</aside>
+
+
+<footer>
+
+    <ul>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Prensa</a></li>
+        <li><a href="#">Copyright</a></li>
+        <li><a href="#">Términos</a></li>
+        <li><a href="#">Privacidad</a></li>
+    </ul>
+
+    <p>&copy; 2026 ArkTube</p>
+
+</footer>
+
+</body>
+
+</html>
